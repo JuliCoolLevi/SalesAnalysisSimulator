@@ -67,7 +67,7 @@ struct ContentView: View {
                 .listStyle(.insetGrouped)
                 .scrollContentBackground(.hidden)
             }
-            .navigationTitle("Top 10 Best-Selling")
+            .navigationTitle("Games Data Analysis")
         }
         .task {
             do {
