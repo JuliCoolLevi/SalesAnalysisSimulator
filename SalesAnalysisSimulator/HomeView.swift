@@ -8,8 +8,27 @@
 import SwiftUI
 
 struct HomeView: View {
+    @State var selectedView = 0
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView (selection: $selectedView){
+            
+            ContentView()
+                .tabItem {
+                    Text("Home")
+                    Image(systemName: "house")
+                }.tag(0)
+            ConsolesView()
+                .tabItem {
+                    Text("Consoles")
+                    Image(systemName: "arcade.stick.console.fill")
+                }.tag(1)
+//
+//            ThirdView()
+//                .tabItem { Text("View 3") }
+//                .tag(2)
+            
+            
+        }
     }
 }
 

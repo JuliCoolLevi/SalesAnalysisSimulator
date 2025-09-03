@@ -22,7 +22,7 @@ class MyViewModel {
     private let nameCol = SQLite.Expression<String>("Name")
     private let salesCol = SQLite.Expression<Double>("Global_Sales")
     
-    
+    //methods
     func getBestSellers(limit: Int = 10) throws -> [BestSeller] {
         var rows: [BestSeller] = []
         
@@ -33,12 +33,10 @@ class MyViewModel {
         for row in try db.prepare(query) {
             rows.append(BestSeller(name: row[nameCol], sales: Double(row[salesCol]) ?? 0.0))
         }
-        
-        
-        
         return rows
-        
     }
+    
+    
     
 }
 
