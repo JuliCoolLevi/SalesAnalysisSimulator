@@ -53,8 +53,8 @@ struct ConsolesView: View {
             Text("Consoles (Nostalgia)").bold()
             ScrollView {
                 VStack(spacing: 12) {
-                    ForEach(consoles) { c in
-                        ConsoleCardView(console: c, peakUnits: peak)
+                    ForEach(consoles) { console in
+                        ConsoleCardView(console: console, peakUnits: peak)
                     }
                 }
             }
