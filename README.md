@@ -14,6 +14,9 @@ best genres, most games on a platform)
 - Python
 - GitHub
 
+## Data Used
+Kaggle: https://www.kaggle.com/datasets/dandanjia/vgsales-csv
+
 ## Screenshots
 <img width="603" height="1311" alt="Simulator Screenshot - iPhone 16 Pro - 2025-09-03 at 15 54 03" src="https://github.com/user-attachments/assets/78faf140-e740-48fa-9527-b73bccd59eaa" />
 <img width="603" height="1311" alt="Simulator Screenshot - iPhone 16 Pro - 2025-09-03 at 15 53 58" src="https://github.com/user-attachments/assets/295ef644-53a6-48ab-a505-660df2a5b8ff" />
